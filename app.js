@@ -825,6 +825,199 @@
 // var ascend = studentsScores.sort();
 // document.write("<br>Ordered Score of Students:" + ascend);
 
+// //Task 11//
+
+// var cities = ["Karachi", "Islamabad", "Quetta", "Lahore","Punjab"]
+// document.write("Cities list:<br>" + cities);
+// var selectedCities = cities.slice(1,3);
+// document.write("<br><br>Selected cities list:<br>" + selectedCities);
+
+// //Task 12//
+
+// var arr = ["This ", " is ", " my ", " cat"];
+// document.write("Array:<br>" + arr);
+// var arrjoin = arr.join([]);
+// document.write("<br><br>String:<br>" + arrjoin);
+
+// //Task 13//
+
+// var newarr = ["Keyboard", "Mouse", "Printer", "Monitor"];
+// document.write("Devices:<br>" + newarr);
+// document.write("<br><br>Out:<br>");
+// document.write(newarr.shift(0));
+// document.write("<br><br>Out:<br>");
+// document.write(newarr.shift(1));
+// document.write("<br><br>Out:<br>");
+// document.write(newarr.shift(2));
+// document.write("<br><br>Out:<br>");
+// document.write(newarr.shift(3));
+
+// //Task 14//
+
+// var newarr = ["Keyboard", "Mouse", "Printer", "Monitor"];
+// document.write("Devices:<br>" + newarr);
+// document.write("<br><br>Out:<br>");
+// document.write(newarr.pop(0));
+// document.write("<br><br>Out:<br>");
+// document.write(newarr.pop(1));
+// document.write("<br><br>Out:<br>");
+// document.write(newarr.pop(2));
+// document.write("<br><br>Out:<br>");
+// document.write(newarr.pop(3));
+
+//Task 15//
+// var mobBrands = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+// for(i = 0; i < mobBrands.length; i++){
+//         document.write("<br>"+ mobBrands[i]);
+//     }
+    // document.write(mobBrands[0] + "<br>");
+    // document.write(mobBrands[1] + "<br>");
+    // document.write(mobBrands[2] + "<br>");
+    // document.write(mobBrands[3] + "<br>");
+    // document.write(mobBrands[4] + "<br>");
+    // document.write(mobBrands[5] + "<br>");
+    
+    //Chapter 17-20 //
+
+    // //Task 1//
+    // var multarray = [[],[]];
+
+    // //Task 2//
+    //  var multarray = [["0 " ,"1 " ,"2 ", "3 <br>"],["1 ","0 ","1 ","2 <br>"],["2 " ,"1 " ,"0 " ,"1 <br>"]];
+    // //  document.write(multarray.join(""));
+    //  document.write(multarray[0][0]);
+    //  document.write(multarray[0][1]);
+    //  document.write(multarray[0][2]);
+    //  document.write(multarray[0][3]);
+
+    //  document.write(multarray[1][0]);
+    //  document.write(multarray[1][1]);
+    //  document.write(multarray[1][2]);
+    //  document.write(multarray[1][3]);
+
+    //  document.write(multarray[2][0]);
+    //  document.write(multarray[2][1]);
+    //  document.write(multarray[2][2]);
+    //  document.write(multarray[2][3]);
+    
+    // //Task 3//
+    // for(i = 1; i <= 10; i++){
+    //     document.write(i + "<br>")
+    // }
+
+    // //Task 4//
+    // var num = + prompt("Enter a number to show its multiplication table");
+    // var length = + prompt("Enter length of multiplication table");
+    // var header = ("Multipication table of" + " " + num + " " + "<br>Length is" + " " + length + " " + "<br><br>")
+    // document.write(header.bold())
+    // for(i = 1; i <= length; i++){
+    //     document.write(num + " " + "x" + " " + i + " " + "=" + " " + num * i + "<br>");
+    // }
+
+    // //Task 5//
+    // var fruits = ["apple","banana", "mango", "orange", "strawberry"];
+    // for(i = 0; i < fruits.length; i++){
+    //     document.write(fruits[i] + "<br>");
+    // }
+    // var fruits = ["apple","banana", "mango", "orange", "strawberry"];
+    // var a,b,c,d,e;
+    // a = fruits.indexOf("apple");
+    // b = fruits.indexOf("orange");
+    // c = fruits.indexOf("strawberry");
+    // d = fruits.indexOf("mango");
+    // e = fruits.indexOf("banana");
+    //     document.write("<br> Element at index" + " " + a + " " + "is" + " " + fruits[0]);
+    //     document.write("<br> Element at index" + " " + e + " " + "is" + " " + fruits[1]);
+    //     document.write("<br> Element at index" + " " + d + " " + "is" + " " + fruits[2]);
+    //     document.write("<br> Element at index" + " " + b + " " + "is" + " " + fruits[3]);
+    //     document.write("<br> Element at index" + " " + c + " " + "is" + " " + fruits[4]);
+
+//     //Task 6//
+
+//         //a//
+//      var header = ("Counting: <br><br>")
+//      document.write(header.bold())
+//     for(i=1; i<=15; i++){
+//         document.write(i + ",");
+//     }     
+//          //b//
+//      var header = ("<br><br>Reverse Counting: <br><br>")
+//      document.write(header.bold())
+//     for(i = 10; i >= 1; i--){
+//     document.write(i + ",");
+//     }
+
+//      //c//
+//      var header = ("<br><br>Even: <br><br>")
+//      document.write(header.bold())
+//     for(i = 0; i <= 20 ; i++){
+//         if(i % 2 === 0){
+//             document.write(i + ",");
+//         }
+//     }
+
+//     //d//
+//     var header = ("<br><br>Odd: <br><br>")
+//     document.write(header.bold())
+//    for(i = 0; i <= 20 ; i++){
+//        if(i % 2 !== 0){
+//            document.write(i + ",");
+//        }
+//    }
+
+//    //e//
+//    var header = ("<br><br>Series: <br><br>")
+//    document.write(header.bold())
+//   for(i = 2; i <= 20 ; i++){
+//       if(i % 2 === 0){
+//           document.write(i + "k,");
+//       }
+//   }
+    
+    //Task 7//
+
+    // var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+    // var a = prompt("Welcome to ABC Bakery.What do you want to order Sir/Ma'am?");
+    // a = a.toLowerCase();
+    //     if(A.indexOf(a) !== -1){
+    //         document.write(a + " " + "is available at index" + " " + A.indexOf(a) + " " + "in our bakery.");
+    //     }
+    //     else{
+    //         document.write("We are sorry"+ " " + a + " " + "is not available in our bakery");
+    //     }
+  
+    // //Task 8//
+    // var A = [24, 53, 78, 91, 12];
+    // document.write("Array items:" + A);
+    // var B = Math.max(24, 53, 78, 91, 12);
+    // document.write("<br>The Largest number is:" + B);
+
+    // //Task 9//
+    // var A = [24, 53, 78, 91, 12];
+    // document.write("Array items:" + A);
+    // var B = Math.min(24, 53, 78, 91, 12);
+    // document.write("<br>The Smallest number is:" + B);
+
+    // //Task 10//
+    // for(i=5; i<=100; i++){
+    //     if(i%5 === 0){
+    //         document.write(i + ",");
+    //     } 
+    // }
+
+
+   
+
+
+
+
+ 
+
+
+
+
+
+
 
 
 
