@@ -1005,16 +1005,141 @@
     //     } 
     // }
 
+ //Chapter 21-25 //
 
-   
+//      //Task 1//
+//    var Fname = prompt("Enter first name");
+//    var Lname = prompt("Enter last name");
+//    var fullname = Fname + " " + Lname;
+//    alert("Hello" + " " + fullname);
 
+    // //Task 2//
+    // var mobBrands = prompt("Enter your favorite Mobile phone and it's model")
+    // document.write("My favorite phone is:" + mobBrands);
+    // document.write("<br> Length of string:" + mobBrands.length);
+    
+    // //Task 3//
+    // var str = "Pakistani";
+    // document.write("String:" + " " + str);
+    // document.write("<br>Index of 'n':" + " " + str.indexOf('n'));
 
+    // //Task 4//
+    // var str = "Hello World";
+    // document.write("String:" + " " + str);
+    // document.write("<br>Last Index of 'l':" + " " + str.lastIndexOf('l'));
 
+    // //Task 5//
+    // var str = "Pakistani";
+    // document.write("String:" + " " + str);
+    // document.write("<br>Character at index 3:" + " " + str.charAt('3'));
 
+    // //Task 6//
+    //    var Fname = prompt("Enter first name");
+    //    var Lname = prompt("Enter last name");
+    //    var fullname = Fname.concat(Lname)
+    //    alert("Hello" + " " + fullname);
+
+//        //Task 7//
+// var city = "Hyderabad";
+// document.write("City:" + " " + city);
+// var replace = city.replace("Hyder", "Islam")
+// document.write("<br>After replacement:" + " " + replace);
+
+//  //Task 8//
+//  var message = "Ali and Sami are best friends. They play cricket and football together.";
+//  document.write("Message:" + " " + message);
+//  var replace = message.replace(/and/g, "&")
+//  document.write("<br>After replacement:" + " " + replace);
+
+//  //Task 9//
+//  var str = "472";
+//  num = parseInt(str);
+
+//  document.write("Value:" + " " + str);
+//  document.write("<br>Type: String");
+//  document.write("<br>Value:" + " " + num);
+//  document.write("<br>Type: Number");
  
+// //Task 10//
+// var input = prompt("Enter anything");
+// document.write("<br>User input:" + " " + input);
+// document.write("<br>Upper case:" + " " + input.toUpperCase());
 
+// //Task 11//
+// var input = prompt("Enter anything");
+// document.write("<br>User input:" + " " + input);
+// var c = toTitleCase(input);
+// document.write("<br>Title case:" + " " + c);
 
+// //Task 12//
+// var num = 35.36 ;
+// document.write("Number:" + " " + num);
+// var convert = num.toString();
+// document.write("<br>Result:" + " " + convert);
 
+//Task 13//
+// var input = prompt("Enter Username");
+// // var convert = input.charCodeAt(input);
+// if(input.length === "@" || input.length === "!"){
+//     alert("Please enter valid username");
+// }
+// else{
+//     alert("Valid Username");
+// }
+
+// var input = prompt("Enter Username");
+// var sc = ['!','@',',','.'];
+
+// // for(i=0; i<sc.length; i++){
+// //     var b = input.localeCompare(sc[i]); 
+//     if(sc.indexOf(input) !== -1){
+//         alert("not valid");
+//     }
+//  else{
+//     alert("valid");
+//  }
+     
+    
+// }
+
+// //Task 14//
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"]; 
+// var item = prompt("Enter any item that you want");
+// item = item.toLowerCase();
+
+//     if(A.indexOf(item) === -1){
+//         document.write("Sorry" + " " + item + " " + "is not available");
+//     }
+//     else{
+//         document.write("Yes" + " " + item + " " + "is available at index" + " " + A.indexOf(item));
+//     }
+
+//Task 15//
+// //Task 16//
+
+// var university = "University of Karachi";
+// university = university.split("\n");
+// document.write(university);
+
+//Task 17//
+// var user = prompt("Enter anything");
+// document.write("User input:" + " " + user);
+// document.write("<br>Last character of input:" + " " + user.charAt(user.length - 1));
+
+// //Task 18//
+// var str = "The quick brown fox jumps over the lazy dog";
+// document.write("Text:" + " " + str);
+// var occurence = str.match(/the/gi);
+// document.write("<br>There are 2 occurence(s) of word 'the':" + " " + occurence);
+
+//Chapter 26-30 //
+
+//   //Task 1//
+//   var int = + prompt("Enter any positive integer");
+//   document.write("Number:" + " " + int);
+//   document.write("<br>Round off value:" + " " + Math.round(int));
+//   document.write("<br>Floor value:" + " " + Math.floor(int));
+//   document.write("<br>Ceil value:" + " " + Math.ceil(int));
 
 
 
