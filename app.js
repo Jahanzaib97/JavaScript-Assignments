@@ -6,7 +6,7 @@
 // //Task 2//
 // alert("Error! Please enter a valid password.");
 
-// //Task 3//
+// //Task //
 // alert("Welcome to JS Land...\nHappy Coding!");
 
 // //Task 4//
@@ -1135,11 +1135,74 @@
 //Chapter 26-30 //
 
 //   //Task 1//
-//   var int = + prompt("Enter any positive integer");
+//   var int = + prompt("Enter any positive floating point");
 //   document.write("Number:" + " " + int);
 //   document.write("<br>Round off value:" + " " + Math.round(int));
 //   document.write("<br>Floor value:" + " " + Math.floor(int));
 //   document.write("<br>Ceil value:" + " " + Math.ceil(int));
+
+//   //Task 2//
+//   var int = + prompt("Enter any negative floating point");
+//   document.write("Number:" + " " + int);
+//   document.write("<br>Round off value:" + " " + Math.round(int));
+//   document.write("<br>Floor value:" + " " + Math.floor(int));
+//   document.write("<br>Ceil value:" + " " + Math.ceil(int));
+
+//   //Task 3//
+//   var int = + prompt("Enter any number");
+//   var num = Math.abs(int);
+//   document.write("The absolute value of" + " " + int + " " + "is" + " " + num);
+
+//  //Task 4//
+//   var randnum = Math.random();
+//   var num2 = (randnum * 6) + 1;
+//   var number3 = Math.floor(num2);
+//   document.write("Random dice value is:" + " " + number3);
+//   var randnum1 = Math.random();
+//   var num3 = (randnum1 * 6) + 1;
+//   var number4 = Math.floor(num3);
+//   document.write("<br>Random dice value is:" + " " + number4);
+
+//     //Task 5//
+//   var randnum = Math.random();
+//   var num2 = (randnum * 2) + 1;
+//   var number3 = Math.floor(num2);
+//   if(number3 === 2){
+//   document.write(number3 + "<br>Random coin value is:" + " " + "Heads<br>");
+// }
+
+//   var randnum1 = Math.random();
+//   var num3 = (randnum1 * 2) + 1;
+//   var number4 = Math.floor(num3);
+//    if(number4 === 1){
+//   document.write(number4 + "<br>Random coin value is:" + " " + "Tails");
+//   }
+
+
+//   //Task 6//
+//   var randnum = Math.random();
+//   var num2 = (randnum * 100) + 1;
+//   var number3 = Math.floor(num2);
+//   document.write("Random number between 1 and 100  is:" + " " + number3);
+
+//     //Task 7//
+// var weight = prompt("Enter your weight in kilograms");
+// weights = parseFloat(weight);
+// document.write("The weight of user is" + " " + weights + " " + "kilograms");
+
+//     //Task 8//
+//   var randnum = Math.random();
+//   var num2 = (randnum * 10) + 1;
+//   var number3 = Math.floor(num2);
+//   var input = + prompt("Enter any number between 1 to 10")
+//   if(input === number3){
+//       alert("Congratulations you wrote the correct secret number");
+//   }
+//   else{
+//     alert("Sorry you guessed the wrong secret number");
+//   }
+//   document.write("Random number between 1 and 10  is:" + " " + number3);
+
 
 
 
