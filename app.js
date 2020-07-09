@@ -1203,6 +1203,142 @@
 //   }
 //   document.write("Random number between 1 and 10  is:" + " " + number3);
 
+//Chapter 31-34 //
+
+//   //Task 1//
+//   var date = new Date();
+//   document.write(date);
+
+// //Task 2//
+// var months = ['Jan','Feb','Mar','Apr','May','June','July','Aug','Sep','Oct','Nov','Dec'];
+// var date = new Date();
+// var month = date.getMonth();
+// document.write("Current month:" + months[month]);
+
+// //Task 3//
+// var days = ['Sun','Mon','Tue','Wed','Thurs','Fri','Sat'];
+// var date = new Date();
+// var day = date.getDay();
+// document.write("Today is:" + days[day]);
+
+// //Task 4//
+// var days = ['Sun','Mon','Tue','Wed','Thurs','Fri','Sat'];
+// var date = new Date();
+// var day = date.getDay();
+// if(day === 0 || day === 6){
+//     document.write("It's fun day"); 
+// }
+// else{
+// document.write("Today is:" + days[day]);
+// }
+
+// //Task 5//
+// var date = new Date();
+// var day = date.getDate();
+// if(day <= 15){
+//     document.write("First fifteen days of the month");
+// }
+// else{
+//     document.write("Last days of the month");
+// }
+
+// //Task 6//
+// var date = new Date();
+// var time = date.getTime();
+// var mins = (time/1000)/60;
+//     document.write("Current Date:" + date);
+//     document.write("<br>Elapsed milliseconds since January 1, 1970:" + time);
+//     document.write("<br>Elapsed minutes since January 1, 1970:" + mins);
+
+//     //Task 7//
+// var date = new Date();
+// var time = date.getTime();
+// var hours = date.getHours();
+// if(hours <= 12){
+//     document.write("Its AM");
+// }
+// else{
+//     document.write("Its PM");
+// }
+
+//   //Task 8//
+//   var date = new Date();
+//   date.setDate(31);
+//   date.setMonth(11);
+//  document.write("Later date:" + date);
+
+//  //Task 9//
+//  var todayDate = new Date();
+//  var ramazanDay = new Date("June 18, 2020");
+//  var todayTime = todayDate.getTime();
+//  var ramazanTime = ramazanDay.getTime();
+//  var diff = todayTime - ramazanTime;
+//  var cdiff = diff/(1000*60*60*24);
+//  cdiff = Math.floor(cdiff);
+//  document.write(cdiff + " " + "days have passed since 1st Ramadan,2020");
+
+//  //Task 10//
+//  var beginDate = new Date("January 1, 2015");
+// //  var referenceDay = new Date("December 5, 2015");
+// var referenceDay = new Date();
+// referenceDay.setDate(5);
+// referenceDay.setMonth(11);
+// referenceDay.setFullYear(2015);
+//  var beginTime = beginDate.getTime();
+//  var referenceTime = referenceDay.getTime();
+//  var diff = referenceTime - beginTime;
+//  var cdiff = diff/(1000*60);
+//  cdiff = Math.floor(cdiff);
+//  document.write("On reference date" + " " + referenceDay + ",<br>" + cdiff + " " +  "seconds had passed since beginning of 2015");
+
+//  //Task 11//
+// var referenceDate = new Date();
+// var b = referenceDate.toString();
+// var c = b.slice(18);
+// var d = b.slice(0,15);
+// var a = referenceDate.getHours()-1;
+
+//  document.write("current date:" + " " + referenceDate);
+//  document.write("<br>1 hour ago it was," + " " + d + " " + a + c);
+
+// //Task 12//
+// var referenceDate = new Date();
+// var b = referenceDate.toString();
+// var c = b.slice(16);
+// var d = b.slice(3,11);
+// var a = referenceDate.getFullYear()-100;
+
+//  document.write("current date:" + " " + referenceDate);
+//  document.write("<br>100 years back, it was Fri" + " " + d + " " + a + " " + c);
+
+// //Task 13//
+// var age = + prompt("Enter your age");
+// document.write("Your age is" + " " + age);
+
+// var date = new Date();
+// var year = date.getFullYear();
+// var birthYear = year - age;
+// document.write("<br>Your birth year is" + " " + birthYear);
+
+// //Task 14//
+// var customerName = prompt("Enter customer name")
+// var currentMonth = prompt("Enter current Month")
+// var Units =  + prompt("Enter Number of Units")
+// var chargePerUnits = + prompt("Enter charge per units")
+// var latePaymentSurcharge = + prompt("Late Payment Surcharge ")
+// var netAmount =  Units * chargePerUnits;
+// var grossAmount = netAmount + latePaymentSurcharge;
+
+// var heading = "K-Electric Bill";
+// document.write(heading.bold());
+// document.write("<br><br>Customer Name:" + " " + customerName.bold());
+// document.write("<br>Month:" + " " + currentMonth.bold());
+// document.write("<br>Number of units:" + " " + Units);
+// document.write("<br>Charges per unit:" + " " + chargePerUnits);
+// document.write("<br><br>Net Amount Payable (within Due Date):" + " " + netAmount);
+// document.write("<br>Late Payment Surcharge:" + " " + latePaymentSurcharge);
+// document.write("<br>Gross Amount Payable (after Due Date):" + " " + grossAmount);
+
 
 
 
